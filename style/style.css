@@ -76,4 +76,95 @@ header{
 }
 .camming{
     margin-top: 120px;
+    
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr repeat(3);
+    
+    
+}
+.camming-img-container{
+    width: 300px;
+}
+.camming-img{
+    
+    padding-top: 40px;
+  
+  
+    background-image: url(../images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    height: 260px;
+    width: 260px ;
+    border-radius: 260px;
+    padding: 10px;
+    border-collapse: collapse;
+    align-items: center;
+  
+    background-position: center;
+}
+.camming-img-container{
+    border: 4px solid tomato;
+    padding: 20px;
+    border-radius: 460px;
+}
+.camming-text{
+    width: 300px;
+    text-align: left;
+}
+.camming-text h1{
+ margin-top: 20px;
+}
+.camming-text p{
+    margin-top: 20px;
+}
+.comming-details{
+    text-align: left;
+    width: 300px;
+    margin-left: 20px;
+    align-items: center;
+}
+.comming-details p{
+    margin-top: 20px;
+}
+.comming-details img{
+    margin-top: 50px;
+}
+.holliday{
+    text-align: center;
+    margin-top: 120px;
+}
+.holliday-chlid{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+    position: relative;
+    align-items: center;
+}
+.holliday-bg{
+    background-color: red;
+    height: 200px;
+}
+
+.holliday-img-two{
+   
+}
+.img-75{
+    width: 75%;
+    top: 200px;
+    position: relative;
+  
+   
+    
+}
+.holliday h1{
+    margin-top: 20px;
+    font-size: 32px;
+}
+.holliday p{
+    margin-top: 20px;
 }
